@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask API Client</title>
+    <script defer src="/static/main.js"></script>
+</head>
+<body>
+    <h1>Flask API Client</h1>
+
+    <h2>Get Users</h2>
+    <button id="getUsersBtn">Get Users</button>
+    <pre id="usersOutput"></pre>
+
+    <h2>Get User By ID</h2>
+    <input type="number" id="userIdInput" placeholder="Enter user ID">
+    <button id="getUserByIdBtn">Get User</button>
+    <pre id="userOutput"></pre>
+
+    <h2>Create User</h2>
+    <form id="createUserForm">
+        <label>Name: <input type="text" id="userName" required></label><br>
+        <label>Email: <input type="email" id="userEmail" required></label><br>
+        <button type="submit">Create User</button>
+    </form>
+    <pre id="createUserOutput"></pre>
+</body>
+</html>
